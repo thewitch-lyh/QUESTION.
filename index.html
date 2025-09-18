@@ -2,78 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>🌿 Bestie Request 🤍</title>
+  <title>Bestieee 🌿🤍</title>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
   <style>
     body {
-      background: #f8fdf9;
-      font-family: "Poppins", sans-serif;
-      color: #2e3d2f;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #f4f8f4; /* soft white */
+      color: #2f4f4f; /* deep sage */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
       text-align: center;
-      padding: 50px;
-      overflow-x: hidden;
     }
+
     h1 {
-      font-size: 3em;
-      color: #2e3d2f;
+      font-size: 2.5rem;
+      color: #3c6e47; /* sage green */
+      margin-bottom: 20px;
     }
-    .card {
-      background: #ffffff;
-      border: 2px solid #c9e2c7;
-      border-radius: 20px;
-      padding: 30px;
-      max-width: 600px;
-      margin: auto;
-      box-shadow: 0px 5px 20px rgba(0,0,0,0.05);
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
     }
-    .question {
-      font-size: 1.5em;
-      margin: 20px 0;
-    }
-    .buttons {
-      margin: 20px 0;
-    }
+
     button {
-      font-size: 1.2em;
-      padding: 10px 20px;
+      background-color: #3c6e47; /* sage green */
+      color: white;
+      border: none;
+      padding: 12px 24px;
       margin: 10px;
       border-radius: 12px;
-      border: none;
+      font-size: 1rem;
       cursor: pointer;
       transition: 0.3s;
     }
-    .yes {
-      background: #9dbf9e;
-      color: #fff;
+
+    button:hover {
+      background-color: #2b4f34;
     }
-    .yes:hover {
-      background: #7ea77f;
+
+    .no-btn {
+      background-color: #888;
     }
-    .no {
-      background: #e6e6e6;
-      color: #2e3d2f;
-    }
-    .no:hover {
-      background: #cccccc;
-    }
-    .status {
-      font-size: 1.4em;
-      margin-top: 30px;
-      color: #4a5f4d;
-      font-weight: bold;
+
+    .no-btn:hover {
+      background-color: #555;
     }
   </style>
 </head>
 <body>
-  <h1>🌿QUESTION! QUESTION! QUESTION!🤍</h1>
 
-  <div class="card">
-    <p class="question">
-      🌸 Hey You! 🤍<br>
-      I’ve got a question for you… ✨<br>
-       Will you be my <b>Best Friend?</b> 
-    </p>
-
- <div>
+  <h1>🌸 Hey Bestieee! 🌸</h1>
+  <p>Will you be my <strong>Best Friend </strong>? 🌿✨</p>
+  
+  <div>
     <button onclick="sayYes()">💚 Yes!</button>
     <button class="no-btn" onclick="sayNo()">💔 No...</button>
   </div>
@@ -103,7 +89,7 @@
         });
       }, 1000);
 
-      alert("YAYY 🌿💚 BESTIES FOREVER!! ✨");
+      alert("YAYY 🌿✨");
     }
 
     function sayNo() {
@@ -136,9 +122,10 @@
         });
       }, 800);
 
-      alert("dare to say no???");
+      alert("DARE TO SAY NO");
     }
   </script>
 
 </body>
 </html>
+
